@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--    to run in debug mode :
+ *       ./node_modules/openlayers/node_modules/.bin/closure-util serve config.json
+        and change the script tag above :
+      <script src="@?main=src/main.js" type="text/javascript"></script>
+ -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+    <link rel="stylesheet" href="node_modules/openlayers/css/ol.css" type="text/css">
+    <title>OpenLayers 3 example</title>
+    <style>
+      #map {
+        width: 600px;
+        height: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script src="app.js" type="text/javascript"></script>
+  </body>
+</html>
