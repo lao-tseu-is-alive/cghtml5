@@ -1,0 +1,30 @@
+{
+  "name": "cghtml5",
+  "version": "1.0.0",
+  "description": "testing html5 and openlayers 3 with closure compiler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lao-tseu-is-alive/cghtml5.git"
+  },
+  "keywords": [
+    "html5",
+    "ol3",
+    "closure"
+  ],
+  "author": "cgil",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/lao-tseu-is-alive/cghtml5/issues"
+  },
+  "homepage": "https://github.com/lao-tseu-is-alive/cghtml5#readme",
+  "dependencies": {
+    "openlayers": "^3.11.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
+}

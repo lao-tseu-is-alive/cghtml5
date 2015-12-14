@@ -1,0 +1,7 @@
+--jslint_error=all
+--strict
+--jsdoc
+--max_line_length=80
+--summary
+--unix_mode
+--debug_indentation
